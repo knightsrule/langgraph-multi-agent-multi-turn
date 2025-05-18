@@ -1,0 +1,36 @@
+# Core dependencies for the Dynamic Langgraph Flow project
+
+redis # For Redis client
+langgraph
+pydantic
+openai
+python-dotenv # For loading environment variables (like API keys)
+langchain-openai # Added for ChatOpenAI
+langchain-core # Added for agent/tool/message components
+pytest
+pytest-mock
+langgraph-checkpoint-redis
+async-timeout
+langchain-aws
+langchain
+aiohttp
+langgraph-supervisor
+
+# MongoDB and ODM dependencies
+beanie>=1.25.0  # MongoDB ODM with async support
+motor>=3.3.2    # Async MongoDB driver
+
+# FastAPI and server dependencies
+FastAPI
+uvicorn
+
+# Additional dependencies for channel adapters
+requests
+websockets
+python-multipart
+
+# Development dependencies
+pytest # For running tests
+black # For code formatting
+flake8 # For linting
+mypy # For type checking
